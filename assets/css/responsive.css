@@ -1,0 +1,167 @@
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .video-play::after {
+        right: -0px;
+    }
+ }
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    
+ }
+
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .fixed-height {
+        margin-bottom: 30px;
+    }
+    .about-me-img {
+        margin-bottom: 65px;
+    }
+    .skill-row {
+        margin: 0 15px;
+        height: auto;
+    }
+    .video-play::after {
+        right: -20px;
+    }
+    .vieo-table {
+        height: 330px;
+    }
+ }
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /*#banner-part{
+        background: url(../images/monju1.jpg);
+    }*/
+    .about-me-img {
+        margin-bottom: 65px;
+    }
+    .fixed-height {
+        margin-bottom: 30px;
+    }
+    .about-border1::after,
+    .about-border2::after,
+    .navunderline{
+        display: none;
+    }
+    .skill-row {
+        margin: 0 15px;
+        height: auto;
+    }
+    .video-play img {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .bolg-content {
+        position: inherit;
+        margin-bottom: 30px;
+    }
+    .bolg-content {
+        margin-right: 15px;
+    }
+    #vlog-part {
+        padding-bottom: 0px;
+    }
+    .video-content {
+        padding-left: 20px;
+        padding-bottom: 50px;
+    }
+    .service-item h2 {
+        font-size: 20px;
+    }
+    #customNav {
+        background: black;
+        text-align: center;
+    }
+    .nav-item:hover a{
+        padding-right: 10px;
+    }
+ }
+
+
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    /*#banner-part{
+        background: url(../images/message.jpg);
+    }*/
+    #customNav .navbar-brand {
+        margin-top: 0px;
+    }
+    #banner-part .container {
+        text-align: center;
+    }
+    .banner-text .typed {
+        font-size: 16px;
+    }
+    .btn1, .btn2 {
+        margin-top: 70px;
+    }
+    .fixed-height {
+        margin-bottom: 30px;
+    }
+    .about-border1::after,
+    .about-border2::after,
+    .about-item-img,
+    .about-item-img2,
+    .about-item-img3,
+    .navunderline{
+        display: none;
+    }
+    .about-me-content {
+        margin-top: 100px;
+        padding: 0 15px;
+    }
+    .about-me-img {
+        margin: 0 15px;
+    }
+    .counter-item {
+        margin-bottom: 40px;
+    }
+    .skill-row {
+        margin: 0 15px;
+        height: auto;
+    }
+    #message-part h3 {
+        font-size: 30px;
+        letter-spacing: 0px;
+    }
+    .work-menu ul li {
+        text-align: left;
+        display: block;
+    }
+    .work-menu ul{
+        padding-left: 0;
+    }
+    .video-play img {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .video-content {
+        padding-left: 20px;
+        padding-bottom: 50px;
+    }
+    .video-play::after {
+        right: 0px;
+    }
+    .bolg-content {
+        position: inherit;
+        margin-bottom: 30px;
+    }
+    .bolg-content {
+        margin-right: 15px;
+    }
+    #vlog-part {
+        padding-bottom: 0px;
+    }
+    #customNav {
+        background: black;
+        text-align: right;
+    }
+    .nav-item:hover a{
+        padding-right: 10px;
+    }
+}
