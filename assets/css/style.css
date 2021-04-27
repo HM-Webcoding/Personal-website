@@ -250,6 +250,7 @@ a,
     border-radius: 5px;
     text-align: center;
     margin-right: 5px;
+    color: #000;
 }
 #customNav .active{
     color: var(--primary-color);
