@@ -206,6 +206,7 @@ a,
     left: 0;
     right: 0;
     z-index: 99999;
+    background: #fff;
 }
 
 #customNav .nav-link {
